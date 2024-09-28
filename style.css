@@ -1,0 +1,58 @@
+@font-face {
+    font-family:'Dongle';
+    src: url(Dongle-Regular.ttf);
+}
+
+*{
+    font-family: Dongle;
+    padding: 0;
+}
+
+body{
+    background: rgb(238,174,202);
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+}
+
+#message{
+    color: rgb(153, 115, 235);
+    display: none;
+    text-align: center;
+    font-size: 20px;
+}
+
+.pswd{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+#pswd{
+    height: 100px;
+    width: 350px;
+    font-size: 30px;
+    border-radius: 30px;
+    text-align: center;
+    border-color: pink;
+    outline: none;
+}
+
+.submit{
+    cursor: pointer;
+    border: none;
+    appearance: none;
+    background-color: inherit;
+
+    transition: transform .7s ease-in-out;
+}
+
+.submit:hover{
+    transform: rotate(360deg);
+}
+
+.star{
+    width: 100px;
+    height: 100px;
+}
